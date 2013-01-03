@@ -1,7 +1,5 @@
-scalaVersion := "2.10.0"
+scalaVersion := "2.9.2"
 
-resolvers += "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots"
-
-libraryDependencies += "org.scalaz" % "scalaz-core_2.10" % "7.0-SNAPSHOT"
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "6.0.4"
 
 initialCommands in console := "import scalaz._, Scalaz._"
