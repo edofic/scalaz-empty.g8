@@ -8,7 +8,7 @@ libraryDependencies ++= Seq(
   "org.typelevel" %% "scalaz-contrib-validation" % "0.1.4",
   "org.typelevel" %% "scalaz-contrib-undo"       % "0.1.4",
   "org.typelevel" %% "scalaz-dispatch"           % "0.1.4",
-  "org.typelevel" %% "scalaz-lift"               % "0.1.4",
+//  "org.typelevel" %% "scalaz-lift"               % "0.1.4",
   "org.typelevel" %% "scalaz-nscala-time"        % "0.1.4",
   "org.typelevel" %% "scalaz-spire"              % "0.1.4"
 )
