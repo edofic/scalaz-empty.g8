@@ -1,7 +1,12 @@
 scalaVersion := "2.10.2"
 
+version := "0.0.1-SNAPSHOT"
+
+scalacOptions ++= Seq("-unchecked", "-deprecation")
+
 resolvers += "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots"
 
+parallelExecution in Test := false
 libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-core" % "7.0.0",
   "org.typelevel" %% "scalaz-contrib-210"        % "0.1.4",
