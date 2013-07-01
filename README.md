@@ -1,7 +1,7 @@
 scalaz-empty.g8
 ===============
 
-g8 template with scalaz dependency. master branch uses scala 2.10 final and scalaz 7-snapshot. 
+g8 template with scalaz dependency. master branch uses scala 2.10.2 and scalaz 7.0.0. 
 use with
 
     g8 edofic/scalaz-empty
