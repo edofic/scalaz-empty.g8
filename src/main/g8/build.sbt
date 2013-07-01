@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   "org.typelevel" %% "scalaz-dispatch"           % "0.1.4",
 //  "org.typelevel" %% "scalaz-lift"               % "0.1.4",
   "org.typelevel" %% "scalaz-nscala-time"        % "0.1.4",
-  "org.typelevel" %% "scalaz-spire"              % "0.1.4"
+  "org.typelevel" %% "scalaz-spire"              % "0.1.4",
+  "org.scalatest" %% "scalatest" % "1.9.1" % "test"
 )
 
 initialCommands in console := "import scalaz._, Scalaz._, contrib.std._"
