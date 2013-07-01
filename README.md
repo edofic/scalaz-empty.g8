@@ -22,3 +22,7 @@ see [github project](https://github.com/n8han/giter8).
 
 I reccommend you install it via 
 [Typesafe Stack](http://typesafe.com/stack/download) that also gives you sbt in the bundle.
+
+Osx users can install it via brew:
+    brew update
+    brew install giter8
